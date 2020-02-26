@@ -1,0 +1,111 @@
+/* 
+ * MAIN
+ * @Copyright: (C) 2020 deredhuzent
+ * @Author: Deryana Dhuzent
+ * @Version: 1.0.0
+ * 
+ * @summary:
+*/
+
+html{
+    /* height: 100%;
+    width: 100%;
+    overflow-y: hidden; */
+    overflow-x: hidden;
+    background: black;
+}
+
+#mainContainer, #welcome, .end{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+#board-title{
+   
+    font-family: 'Wallpoet', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+
+#board{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#boardContainer{
+
+    display: flex;
+    padding: 3%;
+    align-content: center;
+}
+
+table{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#infoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid white;
+    height: 55px;
+    width: 55px;
+    border-spacing: -1;
+}
+
+.box:hover{
+    background-color: aqua;
+    opacity: 0.8;
+}
+
+#ships-info{
+    border: 5px solid white;
+    height: 450px;
+    width: 450px;
+    background-image: url("../images/ships/info-ships.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+}
+
+#score-info{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#score-box{
+    border: 5px solid white;
+}
+
+#instructions{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+#welcome-title, .end-text{
+    font-family: 'Wallpoet', cursive;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+button{
+    margin: 3%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+}
+
+button:hover{
+    font-size: 1.2em;
+}
